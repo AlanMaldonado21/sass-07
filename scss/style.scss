@@ -1,4 +1,7 @@
-@import "header.scss";
-@import "reset.scss";
-@import "section-principal";
-@import "pseudoelementos";
+@import "layout/header";
+@import "base/reset.scss";
+@import "layout/section-principal";
+@import "components/pseudoelementos";
+@import "components/botones";
+@import "utilities/mixins";
+@import "media-queries/media-desktop"

@@ -17,7 +17,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   transition: 1s;
 }
 header nav ul li a:hover {
@@ -35,7 +35,7 @@ header .plataforma a {
   margin-right: 15px;
   text-decoration: none;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: white;
 }
 
 * {
@@ -66,17 +66,30 @@ main .section-bienvenida p {
   text-align: center;
 }
 
-section div:first-child {
-  background-color: red;
+.section-botones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-section div:first-child p {
-  text-align: center;
+.section-botones a {
+  background-color: green;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
 }
-section div:nth-child(2) {
-  background-color: yellow;
+.section-botones a:last-child {
+  background-color: orange;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
 }
-section div:last-child {
-  background-color: blue;
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rebeccapurple;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

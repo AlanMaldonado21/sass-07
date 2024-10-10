@@ -1,0 +1,36 @@
+@mixin flex{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flex-variables($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin boton{
+    background-color: yellow;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+
+@mixin botones-variables($bg-color,$padding,$decoration, $b-radius){
+    background-color: $bg-color;
+    padding: $padding;
+    text-decoration: $decoration;
+    border-radius: $b-radius;
+    color: white;
+}
+
+.section-botones{
+    @include flex-variables( flex, space-around , center);
+    a{
+        @include botones-variables(green,15px 25px, none , 5px);
+    }
+    a:last-child{
+        @include botones-variables( orange, 15px , none , 5px)
+    }
+}
