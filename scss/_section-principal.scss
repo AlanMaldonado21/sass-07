@@ -1,0 +1,22 @@
+main{
+
+    .section-bienvenida{
+        margin-top: 35px;
+
+        h1{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 2rem;
+            span{
+                color: yellow;
+            }
+        }
+        p{
+            margin-top: 35px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    }
+}

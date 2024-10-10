@@ -1,0 +1,17 @@
+section{
+
+    div:first-child{
+        background-color: red;
+        p{
+            text-align: center;
+        }
+    }
+
+    div:nth-child(2){
+        background-color: yellow;
+    }
+
+    div:last-child{
+        background-color: blue;
+    }
+}
